@@ -1,0 +1,13 @@
+while(copy!=0)
+    {
+        copy/=10;
+        c++;
+    }
+    while(c>0)
+    {
+        if(c%2==0)
+        ans-=n%10;
+        else
+        ans+=n%10;
+        n/=10;
+    }
